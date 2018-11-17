@@ -1,0 +1,31 @@
+.section {
+    background-color: $white;
+    .section__background {
+        position: relative;
+        img {
+            width: 100%;
+        }
+        .section__content {
+                // bottom: 0;
+                // position: absolute;
+                // right: auto!important;
+                // top: 0;
+                // z-index: 8;
+            .section__content-inner {
+                bottom: 0;
+                position: absolute;
+                right: auto!important;
+                top: 20%;
+                left: 80px;
+                z-index: 8;
+                max-height: 340px;
+                max-width: 440px;
+                padding: 40px;
+                background-color: rgba($grey-3, .5);
+                color: $white;
+                border-radius: 6px;
+
+            }
+        }
+    }
+}
