@@ -1,0 +1,16 @@
+.btn {
+    &.btn-add {
+        margin: 20px 0;
+        background-color: $brand-1; // using the brand green
+        color: $white;
+        text-transform: uppercase;
+        padding: 10px 45px;
+        font-size: 14px;
+        border: 2px solid $brand-1;
+        transition: all .5s ease;
+        &:hover {
+            background-color: $white;
+            color: $brand-1;
+        }
+    }
+}

@@ -17,9 +17,19 @@ body {
 
 .section {
   background-color: #fff;
+  padding: 80px 0;
+}
+
+.section.no-padding {
+  padding: 0;
+}
+
+.section.section--grey-5 {
+  background-color: #f4f4f4;
 }
 
 .section .section__background {
+  margin: 0;
   position: relative;
 }
 
@@ -37,7 +47,7 @@ body {
   max-height: 340px;
   max-width: 440px;
   padding: 40px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(89, 98, 102, 0.8);
   color: #fff;
   border-radius: 6px;
 }
@@ -61,4 +71,146 @@ h2 {
 
 p.lead {
   font-size: 16px;
+}
+
+.product__price {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.usps h2 {
+  font-size: 24px;
+  letter-spacing: -1px;
+  margin: 25px 0;
+}
+
+.usps p {
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.usps img {
+  border-radius: 7px;
+}
+
+.usps .usp__large {
+  padding: 0 25px;
+}
+
+.usps .usp__large.first {
+  margin: 60px 0 80px;
+}
+
+.usps .usp__large.last {
+  margin: 80px 0 60px;
+}
+
+.usps .usp__small {
+  margin: 20px 0;
+}
+
+.usps .usp__small .usp {
+  padding: 0 40px;
+}
+
+h2.reviews-title {
+  font-size: 32px;
+  text-align: center;
+}
+
+h3.reviews-title {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reviews.featured .review {
+  text-align: center;
+}
+
+.reviews.featured .review .review__stars .star {
+  display: inline-block;
+  color: #96d429;
+  font-size: 26px;
+  margin-right: 6px;
+}
+
+.reviews.featured .review .review__stars p {
+  display: inline-block;
+  color: #a2a2a2;
+}
+
+.reviews.featured .review h4 {
+  font-weight: 600;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.reviews.featured .review .review__text {
+  border: 0;
+  margin: 0;
+  padding: 0px 20px;
+  color: #494949;
+  font-size: 13px;
+}
+
+.reviews.featured .review .review__author {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.reviews .review {
+  text-align: center;
+}
+
+.reviews .review .review__stars .star {
+  display: inline-block;
+  color: #FFD210;
+  font-size: 26px;
+  margin-right: 6px;
+}
+
+.reviews .review .review__stars p {
+  display: inline-block;
+  color: #a2a2a2;
+}
+
+.reviews .review h4 {
+  font-weight: 600;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.reviews .review .review__text {
+  border: 0;
+  margin: 0;
+  padding: 0px 20px;
+  color: #494949;
+  font-size: 13px;
+}
+
+.reviews .review .review__author {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.btn.btn-add {
+  margin: 20px 0;
+  background-color: #96d429;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 45px;
+  font-size: 14px;
+  border: 2px solid #96d429;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.btn.btn-add:hover {
+  background-color: #fff;
+  color: #96d429;
 }

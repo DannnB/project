@@ -1,0 +1,33 @@
+.product__price {
+    font-size: 24px;
+    font-weight: 700;
+}
+.usps {
+    h2 {
+        font-size: 24px;
+        letter-spacing: -1px;
+        margin: 25px 0;
+    }
+    p {
+        font-weight: 300;
+        line-height: 22px;
+    }
+    img {
+        border-radius: 7px;
+    }
+    .usp__large {
+        &.first {
+            margin: 60px 0 80px;
+        }
+        &.last {
+            margin: 80px 0 60px;
+        }
+        padding: 0 25px;
+    }
+    .usp__small {
+        margin: 20px 0;
+        .usp {
+            padding: 0 40px;
+        }
+    }
+}
